@@ -3,10 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    app:startDestination="@id/issuesFragment">
 
     <fragment
-        android:id="@+id/FirstFragment"
+        android:id="@+id/issuesFragment"
         android:name="com.ocs.gitissues.issues_list.IssuesListFragment"
         android:label="@string/issues_list"
         tools:layout="@layout/fragment_issues">

@@ -26,13 +26,6 @@ class MyIssuesListRecyclerViewAdapter(
         holder.tvIssueTitle.text = item.title
         holder.tvIssueNumber.text = item.number.toString()
         holder.tvIssueSubmittedBy.text = item.user.login
-/*
-
-        with(holder.mView) {
-            tag = item
-            setOnClickListener(mOnClickListener)
-        }
-*/
     }
 
     override fun getItemCount(): Int = mValues.size
