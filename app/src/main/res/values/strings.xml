@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GitIssues</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="issues_list">Issues List</string>
+    <string name="no_text">No data available</string>
+
+</resources>
